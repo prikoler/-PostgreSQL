@@ -6,7 +6,7 @@ ALTER TABLE company
 	ALTER COLUMN company_city SET DEFAULT 'Saint-Petersburg',
 	-- 3: rise up text size
 	ALTER COLUMN company_city SET DATA TYPE varchar(100),
-	 -- 4.1: add column
+	-- 4.1: add column
 	ADD COLUMN country varchar(100) NOT NULL DEFAULT 'Russia';
 	
 -- 4.2: set data
